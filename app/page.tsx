@@ -56,7 +56,7 @@ export default function Home() {
             {[
               { name: 'basketball', img: '/basketball.jpg' },
               { name: 'football', img: '/football.jpg' },
-              { name: 'golf', img: '/golf.jpg' },
+              { name: 'volleyball', img: '/volleyball.jpg' },
               { name: 'badminton', img: '/badminton.jpg' }
             ].map((sport) => (
               <div key={sport.name} className="bg-neutral-800 p-8 rounded-3xl shadow-2xl hover:bg-neutral-700 transition transform hover:scale-110">
@@ -86,7 +86,7 @@ export default function Home() {
           <h2 className="text-5xl font-extrabold text-yellow-400 mb-12 text-center">Services Offered</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
             {[
-              { title: 'Performance Analytics', img: '/performance.png' },
+              { title: 'Performance Analytics', img: '/performance.jpg' },
               { title: 'Tactical Insights', img: '/tactics.jpg' },
               { title: 'Injury Prevention & Health Monitoring', img: '/injury.jpg' }
             ].map((service) => (
