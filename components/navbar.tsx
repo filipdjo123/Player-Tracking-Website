@@ -16,7 +16,7 @@ export default function Navbar() {
   const { data: session } = useSession();
 
   return (
-    <nav className="fixed w-full z-50 bg-black/50 backdrop-blur-sm border-b border-white/10">
+    <nav className="fixed w-full z-50 bg-black border-b border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
@@ -28,6 +28,9 @@ export default function Navbar() {
           
           <div className="hidden md:block">
             <div className="flex items-center space-x-8">
+              <Link href="/user_image" className="text-white hover:text-yellow-400 transition-colors">
+                USER IMAGE
+              </Link>
               <Link href="/products" className="text-white hover:text-yellow-400 transition-colors">
                 PRODUCTS
               </Link>
